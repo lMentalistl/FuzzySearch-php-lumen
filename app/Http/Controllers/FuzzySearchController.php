@@ -15,7 +15,6 @@ class FuzzySearchController extends Controller
     private $airports;
     public function __construct()
     {
-        apcu_clear_cache();
         $this->getAirports();
     }
 
@@ -35,6 +34,7 @@ class FuzzySearchController extends Controller
         }
 
         return response()->json(json_encode($result),200)->withHeaders(['Content-Type' => 'application/json']);
+
     }
     private function getAirports() //Получаем json данные в виде коллекции
     {
