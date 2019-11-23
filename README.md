@@ -23,10 +23,10 @@ If you discover a security vulnerability within Lumen, please send an e-mail to 
 
 The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-## Нечеткий поиск аэропортов
+## РќРµС‡РµС‚РєРёР№ РїРѕРёСЃРє Р°СЌСЂРѕРїРѕСЂС‚РѕРІ
 
-Для запуска использовать команду :
+Р”Р»СЏ Р·Р°РїСѓСЃРєР° РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РєРѕРјР°РЅРґСѓ :
 $ php -S localhost:8000 -t public
 
-Если запускать через docker -> 500 (Internal Server Error) 
-Без docker все работает. $ docker-compose up
+Р•СЃР»Рё Р·Р°РїСѓСЃРєР°С‚СЊ С‡РµСЂРµР· docker -> 500 (Internal Server Error) 
+Р‘РµР· docker РІСЃРµ СЂР°Р±РѕС‚Р°РµС‚.  $ docker-compose up
