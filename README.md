@@ -29,4 +29,4 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
 $ php -S localhost:8000 -t public
 
 Если запускать через docker -> 500 (Internal Server Error) 
-Без docker все работает.  $ docker-compose up
+$ docker-compose up
